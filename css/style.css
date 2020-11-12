@@ -1,6 +1,6 @@
 body{
   margin:0;
-  font-family:url('../images/Font\ Family\ is\ Ropa\ Sans.rtf');
+  font-family: 'Ropa Sans', sans-serif;
   font-size:14px;
   color: brown;
   line-height: 1.6;
@@ -8,6 +8,7 @@ body{
 nav {
   overflow: hidden;
   display: flex;
+  flex-direction: row;
   align-items: center;
   background-color: white;
   position: fixed;
@@ -17,6 +18,11 @@ nav {
   z-index: 1;
   color: brown;
   padding: 0em 1.5em 0em 1.5em;
+}
+
+nav .navigation{
+  display: flex;
+  flex-direction: row;
 }
 
 nav .span{
@@ -51,21 +57,49 @@ nav .span{
 #main-section .button{
   text-decoration: none;
   font-size: 18px;
-  color: brown;
+  background: brown;
+  color: white;
   border: brown 1px solid;
-  padding: 10px 20px;
   border-radius: 10px;
   margin-top:15px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4.4em;
 }
 
 #main-section .button:hover{
-  background:brown;
-  color: white;
+  background:white;
+  color: black;
 }
 
-#logos{
+#footer-logos{
   display: flex;
   justify-content: space-evenly;
   margin-top: 15px;
 }
 
+#final-phrase{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.signup-container{
+  display: inline-block;
+  position: relative;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.input-field{
+  text-decoration: none;
+  font-size: 18px;
+  color: brown;
+  border: brown 1px solid;
+  border-radius: 10px;
+  margin-top:15px;
+  flex: 1;
+  padding-right: 4.6em;
+}

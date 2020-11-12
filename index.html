@@ -4,24 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
   <title>Coffee Landing</title>
 </head>
 <body>
-  <nav>
+  <nav class="navigation">
     <span>
-      <img src="images/logo_with_beans.png" style="height:6vh">
-      <img src="images/canada_flag.png" style="height:6vh">
+      <div class="logo">
+        <img src="images/logo_with_beans.png" style="height:6vh">
+      </div>
+      <div class="navbar">
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Customers</a>
+        <a href="#">Login</a>
+        <img src="images/canada_flag.png" style="height:6vh">
+      </div>
+      
     </span>
   </nav>
     </header>
   <section id="main-section">
     <div style="width:50%">
     <h1>The World's <span style="color:red">Best</span> <br> Coffee Subscription Service</h1>
-    <a href="#" class="button">Sign Up Now</a>
+    <div class="signup-container">
+      <input class="input-field" type="text" placeholder="Your email here">
+      <button class="button" type="submit">Sign Up</button>
+    </div>
+    
+    
   </div>
 </section>
 <footer>
-  <span id="logos">
+  <span id="footer-logos">
     <img src="images/client logos/A&W_Canada_Logo.png" style="height:6vh">
     <img src="images/client logos/wendys.png" style="height:6vh">
     <img src="images/client logos/tim-hortons-logo.png" style="height:6vh">
@@ -30,5 +46,8 @@
     <img src="images/client logos/mcdonalds.png" style="height:6vh">
   </span>
 </footer>
+<section id="final-phrase">
+  <h1>Our Coffee Beans</h1>
+</section>
 </body>
 </html>
