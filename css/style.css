@@ -183,6 +183,10 @@ body{
     text-align: center;
   }
 
+  .main-section h1{
+    margin-left: 0px;
+  }
+
   .footer-logos img{
     visibility: hidden;
   }
@@ -206,7 +210,7 @@ body{
   
   .final-phrase{
     text-align: center;
-    margin-left: 15vh;
+    margin-left: 0px;
     margin-top: -3vh;
   }
 
@@ -253,7 +257,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 15vh;
+    margin-left: 0px;
     margin-top: 19vh;
   }
   
